@@ -13,6 +13,18 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
 
   void _submitForm() {}
 
+  // takePicture() async {
+  //   final ImagePicker _picker = ImagePicker();
+  //   XFile imageFile = await _picker.pickImage(
+  //     source: ImageSource.camera,
+  //     maxWidth: 600,
+  //   ) as XFile;
+ 
+  //   setState(() {
+  //     _storedImage = File(imageFile.path);
+  //   });
+  // }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
